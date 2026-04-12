@@ -1,7 +1,7 @@
 title: 神奈川県釣船業協同組合
 description: 豊かな海を守るため、八景沖を中心に稚魚の放流活動を行っています。
-url: "" # TODO: 本番ドメイン確定後に設定（例: https://kanaturi-kumiai.jp）
-baseurl: ""
+url: "https://kotaokubo.github.io"
+baseurl: "/kanaturi"
 
 exclude:
   - CLAUDE.md
