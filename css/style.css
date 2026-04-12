@@ -671,6 +671,10 @@ ul {
   margin-top: 32px;
 }
 
+.mt-48 {
+  margin-top: 48px;
+}
+
 /* ===== Article Nav (prev/next) ===== */
 .article-nav {
   display: flex;
