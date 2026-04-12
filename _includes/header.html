@@ -1,0 +1,22 @@
+<!-- Header -->
+<header class="header">
+  <div class="header-logo"><a href="{{ '/' | relative_url }}">神奈川県釣船業協同組合</a></div>
+  <button class="hamburger" aria-label="メニュー" aria-expanded="false" aria-controls="nav-menu">
+    <span></span><span></span><span></span>
+  </button>
+  <nav aria-label="メインナビゲーション">
+    <ul class="nav-menu" id="nav-menu">
+      <li><a href="{{ '/index.html' | relative_url }}"{% if page.nav_active == 'home' %} class="active" aria-current="page"{% endif %}>ホーム</a></li>
+      <li><a href="{{ '/members.html' | relative_url }}"{% if page.nav_active == 'members' %} class="active" aria-current="page"{% endif %}>加盟船宿</a></li>
+      <li><a href="{{ '/activities/' | relative_url }}"{% if page.nav_active == 'activities' %} class="active" aria-current="page"{% endif %}>活動報告</a></li>
+      <li><a href="{{ '/about.html' | relative_url }}"{% if page.nav_active == 'about' %} class="active" aria-current="page"{% endif %}>組合概要</a></li>
+      <li><a href="{{ '/contact.html' | relative_url }}"{% if page.nav_active == 'contact' %} class="active" aria-current="page"{% endif %}>お問い合わせ</a></li>
+      <li class="nav-menu-spacer"></li>
+      <li class="nav-menu-footer">
+        神奈川県釣船業協同組合<br>
+        <a href="tel:045-784-3144">TEL: 045-784-3144</a>
+      </li>
+    </ul>
+  </nav>
+</header>
+<div class="nav-overlay" role="presentation" aria-hidden="true"></div>

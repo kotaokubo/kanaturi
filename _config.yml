@@ -1,0 +1,14 @@
+title: 神奈川県釣船業協同組合
+description: 遊びの資源である魚を大切に、初心者からセミプロまで満足いただくサービスを提供しています。
+url: "" # TODO: 本番ドメイン確定後に設定（例: https://kanaturi-kumiai.jp）
+baseurl: ""
+
+exclude:
+  - CLAUDE.md
+  - REFACTORING.md
+  - REFACTORING_LOG.md
+  - REVIEW_LOG.md
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - review/
