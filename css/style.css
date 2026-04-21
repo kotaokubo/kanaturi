@@ -355,6 +355,17 @@ ul {
   gap: 24px;
 }
 
+.card-grid--pair {
+  grid-template-columns: repeat(auto-fit, minmax(280px, 380px));
+  justify-content: center;
+}
+
+/* ===== Year Group (activities list) ===== */
+.year-group {
+  margin-bottom: 64px;
+  scroll-margin-top: calc(var(--header-height) + 16px);
+}
+
 .card {
   background: #fff;
   border-radius: var(--radius);
@@ -399,6 +410,13 @@ ul {
   margin-bottom: 4px;
 }
 
+.card-tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-bottom: 8px;
+}
+
 .card-tag {
   display: inline-block;
   background: var(--color-primary-light);
@@ -407,6 +425,25 @@ ul {
   padding: 2px 10px;
   border-radius: 12px;
   margin-bottom: 8px;
+}
+
+.card-tag-list .card-tag {
+  margin-bottom: 0;
+}
+
+.card-tag--release {
+  background: #e8f2fc;
+  color: #0b5fa5;
+}
+
+.card-tag--cleanup {
+  background: #e6f4ea;
+  color: #1e7e34;
+}
+
+.card-tag--event {
+  background: #fff4e0;
+  color: #b86e00;
 }
 
 /* ===== Member List ===== */
@@ -463,11 +500,19 @@ ul {
 /* ===== About / Board Members ===== */
 .table-responsive {
   overflow-x: auto;
+  max-width: 880px;
+  margin: 0 auto;
 }
 
 .board-table {
   width: 100%;
   border-collapse: collapse;
+}
+
+.board-table td[data-label="役職"] {
+  font-weight: 600;
+  color: var(--color-primary);
+  white-space: nowrap;
 }
 
 .board-table th,
@@ -528,6 +573,17 @@ ul {
   object-fit: cover;
 }
 
+.article-placeholder {
+  background: #f7f9fb;
+  border: 1px dashed #c6d4e1;
+  padding: 24px;
+  text-align: center;
+  color: var(--color-text-light);
+  border-radius: var(--radius-sm);
+  margin: 24px 0;
+  font-size: 14px;
+}
+
 /* ===== About sub-sections ===== */
 .about-section {
   max-width: 700px;
@@ -536,10 +592,14 @@ ul {
 
 .about-section h3 {
   color: var(--color-primary);
-  margin-bottom: 12px;
+  margin-bottom: 16px;
   font-size: 20px;
   border-left: 4px solid var(--color-accent);
   padding-left: 12px;
+}
+
+.about-section p + h3 {
+  margin-top: 48px;
 }
 
 .about-section p {
