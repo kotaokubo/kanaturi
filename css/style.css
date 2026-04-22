@@ -164,7 +164,7 @@ ul {
   min-height: 400px;
   max-height: 600px;
   background:
-    linear-gradient(135deg, rgba(11, 95, 165, 0.75) 0%, rgba(26, 143, 209, 0.65) 50%, rgba(43, 179, 224, 0.6) 100%),
+    linear-gradient(135deg, rgb(185 207 224 / 75%) 0%, rgba(26, 143, 209, 0.65) 50%, rgba(43, 179, 224, 0.6) 100%),
     url('../images/hero.webp') center/cover no-repeat;
   display: flex;
   align-items: center;
