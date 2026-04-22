@@ -30,6 +30,7 @@ plugins:
 
 exclude:
   - CLAUDE.md
+  - INFRA.md
   - REFACTORING.md
   - REFACTORING_LOG.md
   - REVIEW_LOG.md
