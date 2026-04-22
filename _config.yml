@@ -2,10 +2,31 @@ title: 神奈川県釣船業協同組合
 description: 豊かな海を守るため、八景沖を中心に稚魚の放流活動を行っています。
 url: "https://kanatsuri.com"
 baseurl: ""
+lang: ja
+locale: ja_JP
 
 # Google Analytics 4 測定ID（G-XXXXXXXXXX）
 # 取得後にここへ貼り付けると全ページで計測が有効になる
 google_analytics: "G-BX6S22D5G2"
+
+# SEO 用の組織情報（JSON-LD / OGP で利用）
+author:
+  name: 神奈川県釣船業協同組合
+organization:
+  name: 神奈川県釣船業協同組合
+  legal_name: 神奈川県釣船業協同組合
+  telephone: "+81-45-784-3144"
+  fax: "+81-45-781-5964"
+  address:
+    street: 柳町7-5 野毛屋内
+    locality: 横浜市金沢区
+    region: 神奈川県
+    postal_code: "236-0002"
+    country: JP
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
 exclude:
   - CLAUDE.md
