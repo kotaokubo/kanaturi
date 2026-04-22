@@ -76,9 +76,11 @@
 - **認証情報**: 1Password「kanaturi / UptimeRobot」
 - **プラン**: Free（50モニター・5分間隔まで）
 - **登録モニター**:
-  - `https://kanatsuri.com` — HTTPSモニター（5分間隔、HEAD）
-  - SSL監視: 有効（期限30日前に通知）
-  - Keyword監視: `神奈川県釣船業協同組合` の文字列チェック（GitHub Pagesが404を返すケースを検知）
+  - [kanatsuri.com (Monitor ID: 802900079)](https://dashboard.uptimerobot.com/monitors/802900079)
+    - URL: `https://kanatsuri.com`
+    - タイプ: Keyword監視（`神奈川県釣船業協同組合` の文字列チェック）
+    - 5分間隔
+    - SSL監視: 有効（期限30日前に通知）
 - **通知先**: `kutpremium@gmail.com`
 - **GA4への影響**: 標準HTTP(S)モニターはJSを実行しないため、計測データには現れない（除外設定不要）。Real Browser Check（有料）を使う場合のみIP除外が必要
 
