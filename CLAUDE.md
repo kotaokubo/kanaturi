@@ -77,9 +77,10 @@
 - **prefers-reduced-motion**: アニメーション無効化対応済み
 
 ### 画像
-- **WebP優先**: `<picture>` タグで WebP `<source>` + GIF `<img>` フォールバック
+- **WebP優先**: `<picture>` タグで WebP `<source>` + `<img>` フォールバック
+  - 新規追加はフォールバックを JPEG にする。GIF は旧サイトから引き継いだ画像のみ
 - 活動写真: `images/activities/{年度ディレクトリ}/` に格納
-  - 令和: `r01/` 〜 `r07/`、平成: `h30/`、古い記録: `archive/`
+  - 令和: `r01/` 〜 `r08/`、平成: `h30/`、古い記録: `archive/`
 - hero画像: `images/hero.webp`（CSS背景で使用）
 
 ### ページ追加時の手順（活動報告の例）
@@ -87,4 +88,4 @@
 2. `activities/index.html` にカードを追加
 3. `index.html` のトップ3件を必要に応じて更新
 4. 前後ページの `.article-nav` リンクを更新
-5. 画像を `images/activities/{年度}/` に WebP + GIF で配置
+5. 画像を `images/activities/{年度}/` に WebP + JPEG で配置
