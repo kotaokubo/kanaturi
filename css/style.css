@@ -751,6 +751,36 @@ ul {
   margin-top: 64px;
 }
 
+/* ===== Partners (協力団体) ===== */
+.partners {
+  margin-top: 48px;
+  padding-top: 24px;
+  border-top: 1px solid var(--color-border);
+}
+
+.partners-title {
+  font-size: 16px;
+  color: var(--color-text-light);
+  margin-bottom: 16px;
+}
+
+.partners-banner {
+  display: inline-block;
+  max-width: 320px;
+}
+
+.partners-banner img {
+  width: 100%;
+  height: auto;
+}
+
+.partners-note {
+  font-size: 13px;
+  color: var(--color-text-light);
+  margin-top: 12px;
+  line-height: 1.8;
+}
+
 /* ===== Article Nav (prev/next) ===== */
 .article-nav {
   display: flex;
