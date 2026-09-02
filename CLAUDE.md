@@ -82,6 +82,8 @@
 - 活動写真: `images/activities/{年度ディレクトリ}/` に格納
   - 令和: `r01/` 〜 `r08/`、平成: `h30/`、古い記録: `archive/`
 - hero画像: `images/hero.webp`（CSS背景で使用）
+- 協力団体のロゴ・バナー: `images/partners/` に格納
+  - 透過が必要なロゴはフォールバックを PNG にする（写真の JPEG ルールの例外）
 
 ### ページ追加時の手順（活動報告の例）
 1. `activities/YYYY-species.html` を既存ページをコピーして作成（front matter含む）
