@@ -1047,6 +1047,10 @@ ul {
   .photo-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .partners-banner {
+    max-width: 150px;
+  }
 }
 
 /* ===== Reduced Motion ===== */
