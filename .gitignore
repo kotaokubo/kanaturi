@@ -29,3 +29,7 @@ pnpm-debug.log*
 # Development / Review
 .playwright-mcp/
 review/
+
+# Claude Code（skills だけ共有し、個人設定と worktree は除外）
+.claude/*
+!.claude/skills/
